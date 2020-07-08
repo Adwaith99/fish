@@ -8,8 +8,9 @@ body{
     width:100%;
     overflow: hidden;
     background-color:black;
-/*    background-image: url(images/background_img2.png)*/
+    background-image : url(images/cards_dof1.png)
 }
+
 
 img{
     max-width: 100%;
@@ -66,12 +67,13 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 350px;
     padding: 50px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.85);
     border-radius: 10px;
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(255, 255, 255, .2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, .2);
+    z-index: 2
 }
 
 .box h1{
@@ -88,7 +90,7 @@ img{
 .box .inputbox input{
   width: 100%;
   padding: 10px 0;
-  font-size: 12px;
+  font-size: 13px;
   color: rgba(0, 0, 0, 0.9);
   margin-bottom: 30px;
   border: none;
